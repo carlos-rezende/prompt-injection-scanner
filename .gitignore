@@ -1,0 +1,21 @@
+# Ambientes virtuais e pacotes
+venv/
+env/
+ENV/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ferramentas de teste e IDEs
+.pytest_cache/
+.DS_Store
+.vscode/
+.idea/
+
+# Arquivos sensíveis e logs
+.env
+*.log
+docker-compose.override.yml

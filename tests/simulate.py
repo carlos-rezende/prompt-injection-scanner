@@ -15,7 +15,7 @@ def run_demo():
 
     for attack in attacks:
         resp = requests.post(
-            "http://localhost:3000/scan",
+            "https://prompt-injection-scanner-66p9.onrender.com/scan",
             json={"prompt": attack},
             timeout=10
         ).json()

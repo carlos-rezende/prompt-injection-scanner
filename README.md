@@ -1,5 +1,8 @@
 # 🛡️ AI Sentinel — Prompt Injection Firewall
 
+> **🌐 Live Demo:** [https://prompt-injection-scanner-66p9.onrender.com/docs](https://prompt-injection-scanner-66p9.onrender.com/docs)
+> *(Nota: Por estar em uma instância gratuita, o primeiro acesso pode levar cerca de 30-50 segundos para despertar o servidor).*
+
 Middleware de segurança para aplicações com LLMs que detecta **Prompt Injection**, **Jailbreaks** e **tentativas de exfiltração de dados** antes que cheguem ao modelo.
 
 Projetado para rodar em **Edge Computing** (como Raspberry Pi) com **latência mínima** e **arquitetura containerizada**.
